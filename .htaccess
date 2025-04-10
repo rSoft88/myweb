@@ -5,5 +5,8 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php
 
 DirectoryIndex index.php
+
+#memperpendek link url (diubah menjadi myweb/about)
 ReWriteRule ^about?$ /myweb/frontend/views/page/about.php [L]
+
 </IfModule>
