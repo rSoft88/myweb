@@ -6,6 +6,8 @@
     <title>MY Web</title>
 </head>
 <body>
-    
+
+
+    <?php include 'frontend/views/includes/footer.php' ;?>
 </body>
 </html>
